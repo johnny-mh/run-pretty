@@ -1,7 +1,7 @@
-# pretty-cli
+# prettycli
 
 Usage
 
 ```
-pretty-cli [filename ...]
+prettycli [filename ...]
 ```
