@@ -35,5 +35,8 @@
     "hooks": {
       "pre-commit": "clang-format -i ./src/**/*.js"
     }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
