@@ -33,7 +33,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "clang-format ./src/**/*.js"
+      "pre-commit": "clang-format -i ./src/**/*.js"
     }
   }
 }
