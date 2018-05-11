@@ -1,5 +1,5 @@
 {
-  "name": "prettycli",
+  "name": "run-pretty",
   "version": "1.0.0",
   "description": "use pretty module on command line interface",
   "main": "src/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/everedifice/prettycli.git"
+    "url": "git+https://github.com/everedifice/run-pretty.git"
   },
   "keywords": [
     "pretty",
@@ -17,9 +17,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/everedifice/prettycli/issues"
+    "url": "https://github.com/everedifice/run-pretty/issues"
   },
-  "homepage": "https://github.com/everedifice/prettycli#readme",
+  "homepage": "https://github.com/everedifice/run-pretty#readme",
   "dependencies": {
     "fs-extra": "^6.0.1",
     "pretty": "^2.0.0"
