@@ -1,0 +1,39 @@
+{
+  "name": "pretty-cli",
+  "version": "1.0.0",
+  "description": "use pretty module on command line interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everedifice/pretty-cli.git"
+  },
+  "keywords": [
+    "pretty",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/everedifice/pretty-cli/issues"
+  },
+  "homepage": "https://github.com/everedifice/pretty-cli#readme",
+  "dependencies": {
+    "fs-extra": "^6.0.1",
+    "pretty": "^2.0.0"
+  },
+  "devDependencies": {
+    "clang-format": "^1.2.3",
+    "husky": "^1.0.0-rc.4"
+  },
+  "bin": {
+    "pretty-cli": "./src/index.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "clang-format ./src/**/*.js"
+    }
+  }
+}
