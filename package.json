@@ -29,7 +29,7 @@
     "husky": "^1.0.0-rc.4"
   },
   "bin": {
-    "pretty-cli": "src/index.js"
+    "run-pretty": "src/index.js"
   },
   "husky": {
     "hooks": {
