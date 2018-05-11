@@ -33,7 +33,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "clang-format -i src/*.js"
+      "pre-commit": "clang-format -i src/*.js && git add src/*.js"
     }
   },
   "publishConfig": {
